@@ -78,15 +78,6 @@ LongBench support is being cleaned up and will be added soon.
 }
 ```
 
-```bibtex
-@inproceedings{wang2025million,
-  title={MILLION: Mastering Long-Context LLM Inference Via Outlier-Immunized KV Product Quantization},
-  author={Wang, Zongwu and Xu, Peng and Liu, Fangxin and Hu, Yiwei and Sun, Qingxiao and Li, Gezi and Li, Cheng and Wang, Xuan and Jiang, Li and Guan, Haibin},
-  booktitle={DAC},
-  year={2025}
-}
-```
-
 ## License
 
 GPL-3.0 (see `LICENSE`), following MILLION.
