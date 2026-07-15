@@ -3,8 +3,7 @@
 **MeltKV: Memory-Aligned KV Cache Compression via Variable-Bit Packed Vector Quantization for Long-Context LLMs**  
 ICCAD 2026
 
-Official implementation of MeltKV.
-
+> Official implementation of MeltKV.
 > Built upon [MILLION](https://github.com/ZongwuWang/MILLION) (DAC'25).
 
 <p align="center">
@@ -17,9 +16,9 @@ WikiText-2 perplexity on **LLaMA-3-8B** (context length 8192):
 
 | Method       | PPL ↓ |
 |------------- |------:|
-| Baseline     |  5.54 |
-| MeltKV 2-bit |  6.09 |
-| MeltKV 1-bit |  9.89 |
+| Baseline     | 5.54 |
+| MeltKV 2-bit | 6.09 |
+| MeltKV 1-bit | 9.89 |
 
 ## Setup
 
