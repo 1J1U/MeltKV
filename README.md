@@ -70,7 +70,7 @@ python evaluate.py -f llama-3.1-8b.json -d wikitext-2-raw-v1 \
 ## Citation
 
 ```bibtex
-@inproceedings{han2026meltkv,
+@inproceedings{meltkv,
   title={MeltKV: Memory-Aligned KV Cache Compression via Variable-Bit Packed Vector Quantization for Long-Context LLMs},
   author={Han, Jiyun and Cho, Seongjoon and Choi, Seungkyu},
   booktitle={ICCAD},
