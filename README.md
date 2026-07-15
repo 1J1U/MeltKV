@@ -47,7 +47,7 @@ Shipped under `codebooks/`:
 | `llama3_2bit.pt` | `-M 32 --bit-setting 2bit` |
 | `llama3_1bit.pt` | `-M 16 --bit-setting 1bit` |
 
-Codebook training follows Coupled Quantization (CQ) [Zhang et al., 2024]. 
+> Codebook training follows Coupled Quantization (CQ) [Zhang et al., 2024]. 
 
 ## Usage
 
