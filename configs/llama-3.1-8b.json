@@ -1,0 +1,9 @@
+{
+  "model_name": "llama-3.1-8b",
+  "max_length": 8192,
+  "stride": 8192,
+  "d": 128,
+  "M": 32,
+  "bit_setting": "2bit",
+  "folder": "Meta-Llama-3.1-8B"
+}

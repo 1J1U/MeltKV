@@ -1,0 +1,13 @@
+{
+  "M": 32,
+  "nbits": 8,
+  "d": 128,
+  "half": true,
+  "breakdown": false,
+  "distort_recent": true,
+  "pipeline": ["evaluation"],
+  "max_length": 8192,
+  "stride": 8192,
+  "bit_setting": "2bit",
+  "quant_rope": "pre"
+}
