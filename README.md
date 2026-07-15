@@ -65,7 +65,7 @@ python evaluate.py -f llama-3.1-8b.json -d wikitext-2-raw-v1 \
   --half -p baseline
 ```
 
-LongBench support is being cleaned up and will be added soon.
+> LongBench support is being cleaned up and will be added soon.
 
 ## Citation
 
