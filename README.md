@@ -4,7 +4,7 @@
 
 ICCAD 2026 · Official implementation
 
-> https://iccad.com/2026/authors/call-for-papers 
+> https://iccad.com/2026/authors/call-for-papers /n
 
 > Built upon [MILLION](https://github.com/ZongwuWang/MILLION) (DAC'25).
 
