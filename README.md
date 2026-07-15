@@ -1,10 +1,22 @@
 # MeltKV
 
-**MeltKV: Memory-Aligned KV Cache Compression via Variable-Bit Packed Vector Quantization for Long-Context LLMs**  
-ICCAD 2026
+<p align="center">
+  <b>Memory-Aligned KV Cache Compression via<br>
+  Variable-Bit Packed Vector Quantization for Long-Context LLMs</b><br>
+  ICCAD 2026
+</p>
 
-> Official implementation of MeltKV.
+Official implementation of MeltKV.
+
 > Built upon [MILLION](https://github.com/ZongwuWang/MILLION) (DAC'25).
+
+## Overview
+
+Long-context LLMs make KV caches dominate memory and latency. Existing vector quantization (VQ) methods compress KV caches to sub-4-bit levels, but often overlook memory alignment and decoding speed.
+
+**MeltKV** is a memory–latency co-optimized KV cache quantization framework. It adaptively assigns bit-widths to grouped key channels and packs indices into standard data types (`uint8` / `uint16`), removing redundant bits. Head-wise codebook sharing further reduces codebook size while preserving accuracy.
+
+At comparable perplexity, MeltKV achieves **48.1% lower memory** and **52.9% lower latency** than state-of-the-art VQ methods, while supporting compression down to **1 bit**.
 
 <p align="center">
   <img src="assets/overview.png" width="95%" alt="MeltKV overview">
@@ -14,9 +26,9 @@ ICCAD 2026
 
 WikiText-2 perplexity on **LLaMA-3-8B** (context length 8192):
 
-| Method       | PPL ↓ |
-|------------- |------:|
-| Baseline     | 5.54 |
+| Method | PPL ↓ |
+|--------|------:|
+| Baseline | 5.54 |
 | MeltKV 2-bit | 6.09 |
 | MeltKV 1-bit | 9.89 |
 
