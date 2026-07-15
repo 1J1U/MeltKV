@@ -1,12 +1,8 @@
 # MeltKV
 
-<p align="center">
-  <b>Memory-Aligned KV Cache Compression via<br>
-  Variable-Bit Packed Vector Quantization for Long-Context LLMs</b><br>
-  ICCAD 2026
-</p>
+## Memory-Aligned KV Cache Compression via Variable-Bit Packed Vector Quantization for Long-Context LLMs
 
-Official implementation of MeltKV.
+ICCAD 2026 · Official implementation
 
 > Built upon [MILLION](https://github.com/ZongwuWang/MILLION) (DAC'25).
 
