@@ -1,6 +1,4 @@
-# MeltKV
-
-## Memory-Aligned KV Cache Compression via Variable-Bit Packed Vector Quantization for Long-Context LLMs
+## MeltKV
 
 ICCAD 2026 · Official implementation 
 
