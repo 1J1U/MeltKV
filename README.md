@@ -2,8 +2,6 @@
 MeltKV: Memory-Aligned KV Cache Compression via Variable-Bit Packed Vector Quantization for Long-Context LLMs
 ICCAD 2026 · Official implementation 
 
-> Built upon [MILLION](https://github.com/ZongwuWang/MILLION) (DAC'25).
-
 ## Overview
 
 Long-context LLMs make KV caches dominate memory and latency. Existing vector quantization (VQ) methods compress KV caches to sub-4-bit levels, but often overlook memory alignment and decoding speed.
@@ -64,6 +62,8 @@ python evaluate.py -f llama-3.1-8b.json -d wikitext-2-raw-v1 \
 ```
 
 > LongBench support is being cleaned up and will be added soon.
+
+> Built upon [MILLION](https://github.com/ZongwuWang/MILLION) (DAC'25).
 
 ## Citation
 
